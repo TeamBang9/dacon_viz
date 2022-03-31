@@ -69,7 +69,7 @@
 
 ### (1) pdfminer 모듈 사용
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled.png)
+![Untitled](/img/Untitled.png)
 
 원본 파일에 없는 특수 문자가 삽입되고 텍스트 순서가 변경되었습니다.
 
@@ -77,7 +77,7 @@
 
 ### (2) pdfplumber 모듈 사용
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%201.png)
+![Untitled](/img/Untitled%201.png)
 
 원본 파일과 동일하게 텍스트 변환되었습니다.
 
@@ -91,7 +91,7 @@
 
 ### (1) 텍스트 제거
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%202.png)
+![Untitled](/img/Untitled%202.png)
 
 > 특수 문자가 사용된 경우 데이터전처리 단계에서 오류가 발생할 가능성이 있습니다.
 > 
@@ -99,11 +99,11 @@
 > 위의 사진에서는 △가 해당되며 모두 삭제했습니다.
 > 
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%203.png)
+![Untitled](/img/Untitled%203.png)
 
 ### (2) 원본 파일 내용 누락
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%204.png)
+![Untitled](/img/Untitled%204.png)
 
 > 원본 파일의 이미지로 삽입된 표와 같은 경우 txt파일에서 누락됩니다.
 > 
@@ -111,11 +111,11 @@
 > 수기로 표의 내용을 추가했습니다.
 > 
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%205.png)
+![Untitled](/img/Untitled%205.png)
 
 ### (3) 텍스트 라인 교정
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%206.png)
+![Untitled](/img/Untitled%206.png)
 
 > 문장의 끝에 오는 단어가 줄이 넘어가며 하나의 단어에서 두 개로 나뉘어지는 현상이 발생합니다.
 > 
@@ -123,7 +123,7 @@
 > 위의 사진에서는 유니콘기업이 해당 되며 이와 같은 단어를 찾아 이어 붙이는 작업을 진행했습니다.
 > 
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%207.png)
+![Untitled](/img/Untitled%207.png)
 
 # 3. 워드클라우드
 
@@ -143,7 +143,7 @@
 - 불용어처리 대충 설명
 - 명사 형태로 출력을 하니 ‘및’, ‘등’과 같은 부사와 ‘도입’, ‘순위’, ‘이행’과 같이 명사임에도 목적어나 주어가 생략되 의도가 불분명한 단어를 삭제하는 작업을 수기로 진행하였습니다.
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%208.png)
+![Untitled](/img/Untitled%208.png)
 
 ## 3.2 텍스트 시각화
 
@@ -161,13 +161,13 @@
 - 마스크 대충 설명
 - 청와대 공식 로고를 사용했습니다.
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%209.png)
+![Untitled](/img/Untitled%209.png)
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%2010.png)
+![Untitled](/img/Untitled%2010.png)
 
 - 파이썬 PIL모듈이 검정과 흰색을 구분지어야 명확하게 구분하기 때문에 테두리를 내부에 검정색으로 채운 이미지를 사용했습니다.
 
-![Untitled](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB%20%E1%84%8C%E1%85%A6%20ade1f/Untitled%2011.png)
+![Untitled](/img/Untitled%2011.png)
 
 - [후보자들이 뭐뭐뭐에 대해 관심이 많은 것을 알 수 있습니다. :)]
 
